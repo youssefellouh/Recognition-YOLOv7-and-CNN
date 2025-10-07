@@ -1,7 +1,5 @@
 import numpy as np
 import cv2
-
-
 def get_digits_data(path):
     data = np.load(path, allow_pickle=True)
     total_nb_data = len(data)
